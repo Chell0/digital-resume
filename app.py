@@ -51,11 +51,17 @@ with col1:
 with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
-    st.download_buttion(
+    st.download_button(
         label="📄 Download Resume",
         data=DOCbyte,
         file_name=resume_file.name,
-        mime="application/octet-stream"
+        mime="application/octet-stream",
     )
     st.write("📫", EMAIL)
-
+    
+    
+# --- SOCIAL LINKS ---
+st.write("#")
+cols = st.columns(len(SOCIAL_MEDIA))
+for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
+    cols[index].write(f"[{platform}]({link})")
