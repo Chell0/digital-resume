@@ -49,4 +49,6 @@ with col1:
     st.image(profile_pic, width=230)
     
 with col2:
-    
+    st.title(NAME)
+    st.write(DESCRIPTION)
+
