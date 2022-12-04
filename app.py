@@ -51,4 +51,10 @@ with col1:
 with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
+    st.download_buttion(
+        label="📄 Download Resume",
+        data=DOCbyte,
+        file_name=resume_file.name,
+        mime="application/octet-stream"
+    )
 
