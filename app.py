@@ -65,3 +65,16 @@ st.write("#")
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
+
+
+# --- EXPERICENCE & QUALIFICATIONS ---
+st.write("#")
+st.subheader("Experience & Qualifications")
+st.write(
+    """
+    - ✔️ Excellent team-player who displays a strong sense of initiative on tasks
+    - ✔️ Good understandinf of programming fundamentals
+    - ✔️ Good hands on experience and knowledge in Python and Excel
+    - ✔️ Adaptable and open to learn
+    """
+)
