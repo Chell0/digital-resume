@@ -58,8 +58,8 @@ with col2:
         mime="application/octet-stream",
     )
     st.write("📫", EMAIL)
-    
-    
+
+
 # --- SOCIAL LINKS ---
 st.write("#")
 cols = st.columns(len(SOCIAL_MEDIA))
@@ -73,8 +73,19 @@ st.subheader("Experience & Qualifications")
 st.write(
     """
     - ✔️ Excellent team-player who displays a strong sense of initiative on tasks
-    - ✔️ Good understandinf of programming fundamentals
-    - ✔️ Good hands on experience and knowledge in Python and Excel
+    - ✔️ Good hands on experience and knowledge in Python, Excel and Postgres
     - ✔️ Adaptable and open to learn
+    """
+)
+
+
+# --- SKILLS ---
+st.write("#")
+st.subheader("Hard Skills")
+st.write(
+    """
+    - 👨🏾‍💻 Programming: Python (Django), JavaScript(ReactJS), SQL
+    - 📊 Data Visualization: MS Excel, PowerBi
+    - 🗄 Databases: Postgres, MySQL
     """
 )
