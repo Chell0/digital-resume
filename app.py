@@ -25,7 +25,7 @@ SOCIAL_MEDIA = {
     "Twitter": "https://twitter.com/CodeWithChelloh"
 }
 PROJECTS = {
-    "🏆 Agency Website - Website for a web development company": "https://www.kazifiti.com",
+    "🏆 Agency Website - Website for a web development company": "https://kazifiti.com",
     "🏆 Cafe Menu - Showcasing a cafe's menu": "https://chell0.github.io/cafe-menu/",
     "🏆 Tribute Page - Giving tribute to a great leader": "https://Chell0.github.io/tribute-page"
 }
@@ -89,3 +89,11 @@ st.write(
     - 🗄 Databases: Postgres, MySQL
     """
 )
+
+
+# --- PROJECTS & ACCOMPLISHMENTS ---
+st.write("#")
+st.subheader("Projects & Accomplishments")
+st.write("---")
+for project, link in PROJECTS.items():
+    st.write(f"[{project}]({link})")
