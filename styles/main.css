@@ -3,3 +3,11 @@
 * {
     font-family: 'Readex Pro';
 }
+
+a {
+    text-decoration: none;
+    color: #fff important;
+    font-weight: 500;
+}
+
+
