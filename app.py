@@ -13,7 +13,7 @@ profile_pic = current_dir / "assets" / "profile-pic.png"
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | Machel Odhiambo"
-PAGE_ICON = ":wave:"
+PAGE_ICON = "👋"
 NAME = "Machel Odhiambo"
 DESCRIPTION = """
 Software Developer.
